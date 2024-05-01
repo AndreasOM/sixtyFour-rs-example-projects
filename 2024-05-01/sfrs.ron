@@ -1,0 +1,69 @@
+(
+    name: "",
+    property_manager: (
+        entries: {
+            "speed": (
+                value: F32(
+                    value: 1.3000001,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 13.0,
+                    step_size: 0.1,
+                ),
+            ),
+            "color1_factor": (
+                value: F32(
+                    value: 27.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "color1_rgb": (
+                value: Vec3F32(
+                    values: (0.62258124, 0.40582713, 0.018818915),
+                ),
+                config: ColorRgb(),
+            ),
+            "scale_red_x": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "fTime": (
+                value: F32(
+                    value: 1.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "color2_rgb": (
+                value: Vec3F32(
+                    values: (0.15366524, 0.9352498, 0.8570467),
+                ),
+                config: ColorRgb(),
+            ),
+            "scale_green_y": (
+                value: F32(
+                    value: 1.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+        },
+    ),
+)
