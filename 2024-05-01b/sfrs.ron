@@ -2,24 +2,6 @@
     name: "",
     property_manager: (
         entries: {
-            "fx1_col1_rgb": (
-                value: Vec3F32(
-                    values: (0.152904, 0.14227381, 0.01291793),
-                ),
-                config: ColorRgb(),
-            ),
-            "fx2_col1_rgb": (
-                value: Vec3F32(
-                    values: (0.050914925, 0.40944684, 0.6292853),
-                ),
-                config: ColorRgb(),
-            ),
-            "fx2_col0_rgb": (
-                value: Vec3F32(
-                    values: (0.6836847, 0.0, 0.0),
-                ),
-                config: ColorRgb(),
-            ),
             "speed": (
                 value: F32(
                     value: 1.0,
@@ -29,12 +11,6 @@
                     max_value: 100.0,
                     step_size: 1.0,
                 ),
-            ),
-            "fx1_col0_rgb": (
-                value: Vec3F32(
-                    values: (0.0599326, 0.038423378, 0.32472405),
-                ),
-                config: ColorRgb(),
             ),
             "fTime": (
                 value: F32(
@@ -46,13 +22,38 @@
                     step_size: 1.0,
                 ),
             ),
+            "fx1_col0_rgb": (
+                value: Vec3F32(
+                    values: (0.7643205, 0.7643205, 0.7643205),
+                ),
+                config: ColorRgb(),
+            ),
+            "fx2_col0_rgb": (
+                value: Vec3F32(
+                    values: (0.76399815, 0.62032735, 0.039522108),
+                ),
+                config: ColorRgb(),
+            ),
+            "fx1_col1_rgb": (
+                value: Vec3F32(
+                    values: (0.34246185, 0.02709229, 0.6168816),
+                ),
+                config: ColorRgb(),
+            ),
+            "fx2_col1_rgb": (
+                value: Vec3F32(
+                    values: (0.02730583, 0.0, 0.55574995),
+                ),
+                config: ColorRgb(),
+            ),
         },
     ),
     resource_manager: (
         resources: {
-            "ZceRIiX0USxGW--ZXAWac": Text((
-                name: "frag",
-                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-01/default.frag.glsl"),
+            "umeX0hZneUZlMWyEbu_GT": Text((
+                name: "vert",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-01b/default.vert.glsl"),
+                version: 29,
             )),
             "Zm2nwFQDp3eQGuZldHMRA": Program((
                 shaders: [
@@ -70,15 +71,16 @@
                     ),
                 ],
             )),
-            "umeX0hZneUZlMWyEbu_GT": Text((
-                name: "vert",
-                file: None,
+            "ZceRIiX0USxGW--ZXAWac": Text((
+                name: "frag",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-01b/default.frag.glsl"),
+                version: 46,
             )),
             "5QDQvyHS3AoFeY5_ZTJiG": Text((
                 name: "frag2",
                 file: None,
+                version: 0,
             )),
         },
     ),
-    programs: {},
 )

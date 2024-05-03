@@ -1,0 +1,144 @@
+(
+    name: "",
+    property_manager: (
+        entries: {
+            "color0_rgb": (
+                value: Vec3F32(
+                    values: (0.15747242, 0.58067256, 0.7055865),
+                ),
+                config: ColorRgb(),
+            ),
+            "color1_rgb": (
+                value: Vec3F32(
+                    values: (0.34732604, 0.14004953, 0.14004953),
+                ),
+                config: ColorRgb(),
+            ),
+            "fMouseClick": (
+                value: Vec2F32(
+                    values: (-0.5878221, 0.33056593),
+                ),
+                config: F32(
+                    min_value: -1.5,
+                    max_value: 1.5,
+                    step_size: 0.001,
+                ),
+            ),
+            "fTime": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "not_gamma": (
+                value: F32(
+                    value: 2.5,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 10.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "offset0": (
+                value: Vec2F32(
+                    values: (0.0, 0.0),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "offset1": (
+                value: Vec2F32(
+                    values: (0.0, 0.0),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 10.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "offset_mix": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 1.0,
+                    step_size: 0.0001,
+                ),
+            ),
+            "speed": (
+                value: F32(
+                    value: 1.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "zoom0": (
+                value: F32(
+                    value: 5.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 0.1,
+                ),
+            ),
+            "zoom1": (
+                value: F32(
+                    value: 5.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+        },
+    ),
+    resource_manager: (
+        resources: {
+            "ZceRIiX0USxGW--ZXAWac": Text((
+                name: "frag",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-02b/default.frag.glsl"),
+                version: 292,
+            )),
+            "umeX0hZneUZlMWyEbu_GT": Text((
+                name: "vert",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-02b/default.vert.glsl"),
+                version: 29,
+            )),
+            "5QDQvyHS3AoFeY5_ZTJiG": Text((
+                name: "frag2",
+                file: None,
+                version: 0,
+            )),
+            "Zm2nwFQDp3eQGuZldHMRA": Program((
+                shaders: [
+                    (
+                        shader_type: Fragment,
+                        resource_id: "ZceRIiX0USxGW--ZXAWac",
+                    ),
+                    (
+                        shader_type: Vertex,
+                        resource_id: "umeX0hZneUZlMWyEbu_GT",
+                    ),
+                    (
+                        shader_type: Fragment,
+                        resource_id: "5QDQvyHS3AoFeY5_ZTJiG",
+                    ),
+                ],
+            )),
+        },
+    ),
+)

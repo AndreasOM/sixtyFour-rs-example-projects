@@ -1,0 +1,224 @@
+(
+    name: "",
+    property_manager: (
+        entries: {
+            "color0_rgb": (
+                value: Vec3F32(
+                    values: (0.43231103, 0.7388357, 0.11996636),
+                ),
+                config: ColorRgb(),
+            ),
+            "color1_rgb": (
+                value: Vec3F32(
+                    values: (0.14004953, 0.18969285, 0.34732604),
+                ),
+                config: ColorRgb(),
+            ),
+            "dtweak": (
+                value: F32(
+                    value: 15.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "fMouseClick": (
+                value: Vec2F32(
+                    values: (-0.42230248, -0.07471788),
+                ),
+                config: F32(
+                    min_value: -1.5,
+                    max_value: 1.5,
+                    step_size: 0.001,
+                ),
+            ),
+            "fMouseHover": (
+                value: Vec2F32(
+                    values: (-0.46418053, 0.3914491),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "fTime": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "new_property": (
+                value: F32(
+                    value: 25.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "not_gamma": (
+                value: F32(
+                    value: 2.3,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 10.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "offset0": (
+                value: Vec2F32(
+                    values: (0.0, 0.0),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "offset1": (
+                value: Vec2F32(
+                    values: (0.0, 0.0),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 10.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "offset_mix": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 1.0,
+                    step_size: 0.0001,
+                ),
+            ),
+            "palette_a": (
+                value: Vec3F32(
+                    values: (0.5, 0.5, 0.5),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 1.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "palette_b": (
+                value: Vec3F32(
+                    values: (0.5, 0.5, 0.5),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 1.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "palette_c": (
+                value: Vec3F32(
+                    values: (1.0, 1.0, 0.5),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 5.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "palette_d": (
+                value: Vec3F32(
+                    values: (0.02, 0.06, 0.48999998),
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 1.0,
+                    step_size: 0.01,
+                ),
+            ),
+            "speed": (
+                value: F32(
+                    value: 0.1,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 10.0,
+                    step_size: 0.1,
+                ),
+            ),
+            "the_layout": (
+                value: F32(
+                    value: 0.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 3.0,
+                    step_size: 1.0,
+                ),
+            ),
+            "zoom0": (
+                value: F32(
+                    value: 5.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 0.1,
+                ),
+            ),
+            "zoom1": (
+                value: F32(
+                    value: 5.0,
+                ),
+                config: F32(
+                    min_value: 0.0,
+                    max_value: 100.0,
+                    step_size: 1.0,
+                ),
+            ),
+        },
+    ),
+    resource_manager: (
+        resources: {
+            "umeX0hZneUZlMWyEbu_GT": Text((
+                name: "vert",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-03b/default.vert.glsl"),
+                version: 29,
+            )),
+            "ZceRIiX0USxGW--ZXAWac": Text((
+                name: "frag",
+                file: Some("/Users/anti/data/work/anti666tv/sixtyFour-rs-projects/sixtyFour-rs-example-projects/2024-05-03b/default.frag.glsl"),
+                version: 540,
+            )),
+            "Zm2nwFQDp3eQGuZldHMRA": Program((
+                shaders: [
+                    (
+                        shader_type: Fragment,
+                        resource_id: "ZceRIiX0USxGW--ZXAWac",
+                    ),
+                    (
+                        shader_type: Vertex,
+                        resource_id: "umeX0hZneUZlMWyEbu_GT",
+                    ),
+                    (
+                        shader_type: Fragment,
+                        resource_id: "5QDQvyHS3AoFeY5_ZTJiG",
+                    ),
+                ],
+            )),
+            "5QDQvyHS3AoFeY5_ZTJiG": Text((
+                name: "frag2",
+                file: None,
+                version: 0,
+            )),
+        },
+    ),
+)
