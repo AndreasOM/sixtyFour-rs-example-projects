@@ -1,6 +1,6 @@
 #version 410
 
-// edit ... again
+// two + - +
 
 uniform float new_property;
 
@@ -45,7 +45,7 @@ vec3 palette( float i, vec3 a, vec3 b, vec3 c, vec3 d )
 {
 	return a + b*cos( 6.28318*(c*i+d) );
 }
- 
+
 vec4 palette0( float i )
 {
 	vec3 a = vec3( 0.5, 0.5, 0.5 );
