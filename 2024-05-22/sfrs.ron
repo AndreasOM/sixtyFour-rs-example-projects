@@ -1,0 +1,22 @@
+(
+    name: "",
+    property_manager: (
+        entries: {},
+    ),
+    resource_manager: (
+        resources: {},
+    ),
+    flow: (
+        blocks: [
+            (
+                name: "start",
+                steps: [
+                    Program(
+                        resource_id: "Zm2nwFQDp3eQGuZldHMRA",
+                    ),
+                    FullscreenQuad,
+                ],
+            ),
+        ],
+    ),
+)
